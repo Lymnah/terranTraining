@@ -3,6 +3,10 @@
     <CUnit id="PurifierMineralField2" parent="MineralFieldDefault">
         <BehaviorArray index="0" Link="MineralFieldMinerals2"/>
     </CUnit>
+    <CUnit id="Zealot2" parent="Zealot">
+        <Name value="Unit/Name/Zealot2"/>
+        <Description value="Button/Tooltip/Zealot2"/>
+    </CUnit>
     <CUnit id="dupplicate_build">
         <DeathRevealRadius value="3"/>
         <Race value="Terr"/>
