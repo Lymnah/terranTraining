@@ -13,4 +13,5 @@
 <Unit id="Oracle"/>
 <Unit id="ProtossVespeneGeyser"/>
 <Unit id="PurifierMineralField" Variations="1,3,5"/>
+<Unit id="SCV_Disabled"/>
 </Preload>

@@ -41,6 +41,7 @@
         <AbilArray Link="SCVHarvest"/>
         <AbilArray Link="BuildSCV_Disabled"/>
         <AbilArray Link="SprayTerran"/>
+        <AbilArray/>
         <WeaponArray Link="FusionCutter"/>
         <CardLayouts>
             <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>

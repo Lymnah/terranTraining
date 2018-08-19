@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
-    <CAbilBuild id="TerranBuild2" parent="TerranBuild">
-        <Name value="Abil/Name/TerranBuild2"/>
-    </CAbilBuild>
     <CAbilBuild id="BuildSCV_Disabled" parent="TerranBuild">
         <Name value="Abil/Name/BuildSCV_Disabled"/>
+    </CAbilBuild>
+    <CAbilBuild id="TerranBuild2" parent="TerranBuild">
+        <Name value="Abil/Name/TerranBuild2"/>
     </CAbilBuild>
 </Catalog>
