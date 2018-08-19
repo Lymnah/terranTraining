@@ -1,0 +1,176 @@
+//==================================================================================================
+// 
+// Generated Map Script
+// 
+// Name:   Just Another StarCraft II Map
+// 
+//==================================================================================================
+include "TriggerLibs/NativeLib"
+
+//--------------------------------------------------------------------------------------------------
+// Library Initialization
+//--------------------------------------------------------------------------------------------------
+void InitLibs () {
+    libNtve_InitLib();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Global Variables
+//--------------------------------------------------------------------------------------------------
+int gv_userPlayer;
+int gv_enemyPlayer;
+point gv_cC_point;
+int gv_sizeOfSpawns;
+point[7] gv_pointSpawns;
+unitgroup gv_attackerGroup;
+
+void InitGlobals () {
+    int init_i;
+
+    gv_userPlayer = 1;
+    gv_enemyPlayer = 2;
+    gv_cC_point = PointFromId(1571270604);
+    gv_sizeOfSpawns = 5;
+    for (init_i = 0; init_i <= 6; init_i += 1) {
+        gv_pointSpawns[init_i] = PointFromId(464423104);
+    }
+    gv_attackerGroup = UnitGroupEmpty();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger Variables
+//--------------------------------------------------------------------------------------------------
+trigger gt_Init;
+trigger gt_debug;
+trigger gt_Waves;
+trigger gt_Attacking;
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Init
+//--------------------------------------------------------------------------------------------------
+bool gt_Init_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    gv_pointSpawns[0] = PointFromId(464423104);
+    gv_pointSpawns[1] = PointFromId(362452046);
+    gv_pointSpawns[2] = PointFromId(1127384928);
+    gv_pointSpawns[3] = PointFromId(34536621);
+    gv_pointSpawns[4] = PointFromId(1549888214);
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, "Oracle", 0, 1, gv_pointSpawns[0]);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_Init_Init () {
+    gt_Init = TriggerCreate("gt_Init_Func");
+    TriggerAddEventMapInit(gt_Init);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: debug
+//--------------------------------------------------------------------------------------------------
+bool gt_debug_Func (bool testConds, bool runActions) {
+    // Automatic Variable Declarations
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_debug_Init () {
+    gt_debug = TriggerCreate("gt_debug_Func");
+    TriggerAddEventMapInit(gt_debug);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Waves
+//--------------------------------------------------------------------------------------------------
+bool gt_Waves_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    int lv_randomIndexSpawnArray;
+
+    // Automatic Variable Declarations
+    // Variable Initialization
+    lv_randomIndexSpawnArray = DataTableValueCount(true);
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    libNtve_gf_CreateUnitsWithDefaultFacing(1, "Banshee", 0, gv_enemyPlayer, gv_pointSpawns[RandomInt(0, gv_sizeOfSpawns - 1)]);
+    UnitIssueOrder(UnitLastCreated(), OrderTargetingPoint(AbilityCommand("move", 0), PointFromId(580017737)), c_orderQueueReplace);
+    UnitGroupAdd(gv_attackerGroup, UnitLastCreated());
+    TriggerExecute(gt_Attacking, true, false);
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_Waves_Init () {
+    gt_Waves = TriggerCreate("gt_Waves_Func");
+    TriggerAddEventTimePeriodic(gt_Waves, 25.0, c_timeGame);
+    TriggerAddEventChatMessage(gt_Waves, c_playerAny, "cy", false);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger: Attacking
+//--------------------------------------------------------------------------------------------------
+bool gt_Attacking_Func (bool testConds, bool runActions) {
+    // Variable Declarations
+    unitgroup lv_scvGroupInZone;
+
+    // Automatic Variable Declarations
+    unitgroup autoC33EEA9D_g;
+    int autoC33EEA9D_u;
+    unit autoC33EEA9D_var;
+
+    // Variable Initialization
+    lv_scvGroupInZone = UnitGroupEmpty();
+
+    // Actions
+    if (!runActions) {
+        return true;
+    }
+
+    lv_scvGroupInZone = UnitGroup("SCV", gv_userPlayer, RegionFromId(1), UnitFilter(0, 0, (1 << c_targetFilterMissile), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32))), 0);
+    autoC33EEA9D_g = gv_attackerGroup;
+    autoC33EEA9D_u = UnitGroupCount(autoC33EEA9D_g, c_unitCountAll);
+    for (;; autoC33EEA9D_u -= 1) {
+        autoC33EEA9D_var = UnitGroupUnitFromEnd(autoC33EEA9D_g, autoC33EEA9D_u);
+        if (autoC33EEA9D_var == null) { break; }
+        if ((UnitGroupCount(lv_scvGroupInZone, c_unitCountAlive) != 0)) {
+            UnitIssueOrder(autoC33EEA9D_var, OrderTargetingUnitGroup(AbilityCommand("attack", 0), lv_scvGroupInZone), c_orderQueueReplace);
+        }
+        else {
+            UnitIssueOrder(autoC33EEA9D_var, OrderTargetingPoint(AbilityCommand("move", 0), PointFromId(580017737)), c_orderQueueReplace);
+        }
+    }
+    return true;
+}
+
+//--------------------------------------------------------------------------------------------------
+void gt_Attacking_Init () {
+    gt_Attacking = TriggerCreate("gt_Attacking_Func");
+    TriggerAddEventTimePeriodic(gt_Attacking, 1.5, c_timeGame);
+}
+
+//--------------------------------------------------------------------------------------------------
+// Trigger Initialization
+//--------------------------------------------------------------------------------------------------
+void InitTriggers () {
+    gt_Init_Init();
+    gt_debug_Init();
+    gt_Waves_Init();
+    gt_Attacking_Init();
+}
+
+//--------------------------------------------------------------------------------------------------
+// Map Initialization
+//--------------------------------------------------------------------------------------------------
+void InitMap () {
+    InitLibs();
+    InitGlobals();
+    InitTriggers();
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Preload>
+<Actor id="SYSTEM_ActorConfig"/>
+<Terrain id="BelShirEx1"/>
+<Unit id="SupplyDepot"/>
+<Unit id="Bunker"/>
+<Unit id="Marine"/>
+<Unit id="Marauder"/>
+<Unit id="Banshee"/>
+<Unit id="OrbitalCommand"/>
+<Unit id="XelNagaTower"/>
+<Unit id="Cyclone"/>
+<Unit id="Oracle"/>
+<Unit id="ProtossVespeneGeyser"/>
+<Unit id="PurifierMineralField" Variations="1,3,5"/>
+</Preload>

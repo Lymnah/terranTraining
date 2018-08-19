@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CSound id="Alert_TerranEconomyUnderAttack2" parent="Alert">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Adjutant\Alert_TerranEconomyUnderAttack.ogg" FacialAnim="Alert_TerranEconomyUnderAttack"/>
+    </CSound>
+    <CSound id="Alert_TerranEconomyUnderAttack3" parent="Alert">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Adjutant\Alert_TerranEconomyUnderAttack.ogg" FacialAnim="Alert_TerranEconomyUnderAttack"/>
+    </CSound>
+    <CSound id="Alert_TerranEconomyUnderAttack4" parent="Alert">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Adjutant\Alert_TerranEconomyUnderAttack.ogg" FacialAnim="Alert_TerranEconomyUnderAttack"/>
+    </CSound>
+    <CSound id="Alert_TerranEconomyUnderAttack5" parent="Alert">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\Adjutant\Alert_TerranEconomyUnderAttack.ogg" FacialAnim="Alert_TerranEconomyUnderAttack"/>
+    </CSound>
+    <CSound id="SCV_Attack2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack00.ogg" FacialAnim="SCV_Attack00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack01.ogg" FacialAnim="SCV_Attack01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack02.ogg" FacialAnim="SCV_Attack02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack03.ogg" FacialAnim="SCV_Attack03"/>
+        <Flags index="Download" value="0"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Attack3" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack00.ogg" FacialAnim="SCV_Attack00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack01.ogg" FacialAnim="SCV_Attack01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack02.ogg" FacialAnim="SCV_Attack02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack03.ogg" FacialAnim="SCV_Attack03"/>
+        <Flags index="Download" value="0"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Attack4" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack00.ogg" FacialAnim="SCV_Attack00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack01.ogg" FacialAnim="SCV_Attack01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack02.ogg" FacialAnim="SCV_Attack02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack03.ogg" FacialAnim="SCV_Attack03"/>
+        <Flags index="Download" value="0"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Attack5" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack00.ogg" FacialAnim="SCV_Attack00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack01.ogg" FacialAnim="SCV_Attack01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack02.ogg" FacialAnim="SCV_Attack02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Attack03.ogg" FacialAnim="SCV_Attack03"/>
+        <Flags index="Download" value="0"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Explode2" parent="Terran_ExplosionSmall">
+        <DupeMaximumMethod value="Prevent"/>
+        <DupeMuteCount value="10"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="SCV_Explode3" parent="Terran_ExplosionSmall">
+        <DupeMaximumMethod value="Prevent"/>
+        <DupeMuteCount value="10"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="SCV_Explode4" parent="Terran_ExplosionSmall">
+        <DupeMaximumMethod value="Prevent"/>
+        <DupeMuteCount value="10"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="SCV_Explode5" parent="Terran_ExplosionSmall">
+        <DupeMaximumMethod value="Prevent"/>
+        <DupeMuteCount value="10"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
+    <CSound id="SCV_Pissed2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed00.ogg" FacialAnim="SCV_Pissed00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed01.ogg" FacialAnim="SCV_Pissed01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed02.ogg" FacialAnim="SCV_Pissed02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed03.ogg" FacialAnim="SCV_Pissed03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed04.ogg" FacialAnim="SCV_Pissed04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed05.ogg" FacialAnim="SCV_Pissed05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed06.ogg" FacialAnim="SCV_Pissed06"/>
+        <Flags index="Download" value="0"/>
+        <Select value="Sequential"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Pissed3" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed00.ogg" FacialAnim="SCV_Pissed00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed01.ogg" FacialAnim="SCV_Pissed01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed02.ogg" FacialAnim="SCV_Pissed02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed03.ogg" FacialAnim="SCV_Pissed03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed04.ogg" FacialAnim="SCV_Pissed04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed05.ogg" FacialAnim="SCV_Pissed05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed06.ogg" FacialAnim="SCV_Pissed06"/>
+        <Flags index="Download" value="0"/>
+        <Select value="Sequential"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Pissed4" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed00.ogg" FacialAnim="SCV_Pissed00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed01.ogg" FacialAnim="SCV_Pissed01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed02.ogg" FacialAnim="SCV_Pissed02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed03.ogg" FacialAnim="SCV_Pissed03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed04.ogg" FacialAnim="SCV_Pissed04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed05.ogg" FacialAnim="SCV_Pissed05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed06.ogg" FacialAnim="SCV_Pissed06"/>
+        <Flags index="Download" value="0"/>
+        <Select value="Sequential"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Pissed5" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed00.ogg" FacialAnim="SCV_Pissed00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed01.ogg" FacialAnim="SCV_Pissed01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed02.ogg" FacialAnim="SCV_Pissed02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed03.ogg" FacialAnim="SCV_Pissed03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed04.ogg" FacialAnim="SCV_Pissed04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed05.ogg" FacialAnim="SCV_Pissed05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Pissed06.ogg" FacialAnim="SCV_Pissed06"/>
+        <Flags index="Download" value="0"/>
+        <Select value="Sequential"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Ready2" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Ready00.ogg" FacialAnim="SCV_Ready00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Ready01.ogg" FacialAnim="SCV_Ready01"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Ready3" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Ready00.ogg" FacialAnim="SCV_Ready00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Ready01.ogg" FacialAnim="SCV_Ready01"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Ready4" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Ready00.ogg" FacialAnim="SCV_Ready00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Ready01.ogg" FacialAnim="SCV_Ready01"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Ready5" parent="Ready">
+        <EditorCategories value="Race:Terran"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Ready00.ogg" FacialAnim="SCV_Ready00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Ready01.ogg" FacialAnim="SCV_Ready01"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_What2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What00.ogg" FacialAnim="SCV_What00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What01.ogg" FacialAnim="SCV_What01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What02.ogg" FacialAnim="SCV_What02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What03.ogg" FacialAnim="SCV_What03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What04.ogg" FacialAnim="SCV_What04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What05.ogg" FacialAnim="SCV_What05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What06.ogg" FacialAnim="SCV_What06"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_What3" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What00.ogg" FacialAnim="SCV_What00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What01.ogg" FacialAnim="SCV_What01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What02.ogg" FacialAnim="SCV_What02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What03.ogg" FacialAnim="SCV_What03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What04.ogg" FacialAnim="SCV_What04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What05.ogg" FacialAnim="SCV_What05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What06.ogg" FacialAnim="SCV_What06"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_What4" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What00.ogg" FacialAnim="SCV_What00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What01.ogg" FacialAnim="SCV_What01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What02.ogg" FacialAnim="SCV_What02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What03.ogg" FacialAnim="SCV_What03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What04.ogg" FacialAnim="SCV_What04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What05.ogg" FacialAnim="SCV_What05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What06.ogg" FacialAnim="SCV_What06"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_What5" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What00.ogg" FacialAnim="SCV_What00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What01.ogg" FacialAnim="SCV_What01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What02.ogg" FacialAnim="SCV_What02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What03.ogg" FacialAnim="SCV_What03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What04.ogg" FacialAnim="SCV_What04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What05.ogg" FacialAnim="SCV_What05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_What06.ogg" FacialAnim="SCV_What06"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Yes2" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes00.ogg" FacialAnim="SCV_Yes00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes01.ogg" FacialAnim="SCV_Yes01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes02.ogg" FacialAnim="SCV_Yes02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes03.ogg" FacialAnim="SCV_Yes03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes04.ogg" FacialAnim="SCV_Yes04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes05.ogg" FacialAnim="SCV_Yes05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes06.ogg" FacialAnim="SCV_Yes06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes07.ogg" FacialAnim="SCV_Yes07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes08.ogg" FacialAnim="SCV_Yes08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes09.ogg" FacialAnim="SCV_Yes09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes10.ogg" FacialAnim="SCV_Yes10"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes11.ogg" FacialAnim="SCV_Yes11"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes12.ogg" FacialAnim="SCV_Yes12"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes13.ogg" FacialAnim="SCV_Yes13"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes14.ogg" FacialAnim="SCV_Yes14"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes15.ogg" FacialAnim="SCV_Yes15"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes16.ogg" FacialAnim="SCV_Yes16"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes17.ogg" FacialAnim="SCV_Yes17"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes18.ogg" FacialAnim="SCV_Yes18"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Yes3" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes00.ogg" FacialAnim="SCV_Yes00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes01.ogg" FacialAnim="SCV_Yes01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes02.ogg" FacialAnim="SCV_Yes02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes03.ogg" FacialAnim="SCV_Yes03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes04.ogg" FacialAnim="SCV_Yes04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes05.ogg" FacialAnim="SCV_Yes05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes06.ogg" FacialAnim="SCV_Yes06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes07.ogg" FacialAnim="SCV_Yes07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes08.ogg" FacialAnim="SCV_Yes08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes09.ogg" FacialAnim="SCV_Yes09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes10.ogg" FacialAnim="SCV_Yes10"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes11.ogg" FacialAnim="SCV_Yes11"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes12.ogg" FacialAnim="SCV_Yes12"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes13.ogg" FacialAnim="SCV_Yes13"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes14.ogg" FacialAnim="SCV_Yes14"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes15.ogg" FacialAnim="SCV_Yes15"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes16.ogg" FacialAnim="SCV_Yes16"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes17.ogg" FacialAnim="SCV_Yes17"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes18.ogg" FacialAnim="SCV_Yes18"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Yes4" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes00.ogg" FacialAnim="SCV_Yes00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes01.ogg" FacialAnim="SCV_Yes01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes02.ogg" FacialAnim="SCV_Yes02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes03.ogg" FacialAnim="SCV_Yes03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes04.ogg" FacialAnim="SCV_Yes04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes05.ogg" FacialAnim="SCV_Yes05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes06.ogg" FacialAnim="SCV_Yes06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes07.ogg" FacialAnim="SCV_Yes07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes08.ogg" FacialAnim="SCV_Yes08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes09.ogg" FacialAnim="SCV_Yes09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes10.ogg" FacialAnim="SCV_Yes10"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes11.ogg" FacialAnim="SCV_Yes11"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes12.ogg" FacialAnim="SCV_Yes12"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes13.ogg" FacialAnim="SCV_Yes13"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes14.ogg" FacialAnim="SCV_Yes14"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes15.ogg" FacialAnim="SCV_Yes15"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes16.ogg" FacialAnim="SCV_Yes16"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes17.ogg" FacialAnim="SCV_Yes17"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes18.ogg" FacialAnim="SCV_Yes18"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+    <CSound id="SCV_Yes5" parent="TerranAck">
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes00.ogg" FacialAnim="SCV_Yes00"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes01.ogg" FacialAnim="SCV_Yes01"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes02.ogg" FacialAnim="SCV_Yes02"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes03.ogg" FacialAnim="SCV_Yes03"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes04.ogg" FacialAnim="SCV_Yes04"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes05.ogg" FacialAnim="SCV_Yes05"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes06.ogg" FacialAnim="SCV_Yes06"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes07.ogg" FacialAnim="SCV_Yes07"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes08.ogg" FacialAnim="SCV_Yes08"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes09.ogg" FacialAnim="SCV_Yes09"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes10.ogg" FacialAnim="SCV_Yes10"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes11.ogg" FacialAnim="SCV_Yes11"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes12.ogg" FacialAnim="SCV_Yes12"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes13.ogg" FacialAnim="SCV_Yes13"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes14.ogg" FacialAnim="SCV_Yes14"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes15.ogg" FacialAnim="SCV_Yes15"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes16.ogg" FacialAnim="SCV_Yes16"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes17.ogg" FacialAnim="SCV_Yes17"/>
+        <AssetArray File="LocalizedData\Sounds\TerranUnitVO\SCV\SCV_Yes18.ogg" FacialAnim="SCV_Yes18"/>
+        <Volume value="-3.000000,-3.000000"/>
+    </CSound>
+</Catalog>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+    <region id="1">
+        <name value="RegionToAttack"/>
+        <color value="255,255,0,0"/>
+        <shape type="circle">
+            <center value="58.8271,59.1137"/>
+            <radius value="13.2998"/>
+        </shape>
+    </region>
+</Regions>

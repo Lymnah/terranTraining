@@ -1,0 +1,17 @@
+﻿Category/Name/052EBF08=Init
+Category/Name/426C6475=Debug
+Category/Name/62FE372E=CycloneDefense
+Category/Name/6D3910B4=Global Variables
+Trigger/Name/735B1107=debug
+Trigger/Name/8C3274AB=Attacking
+Trigger/Name/A15A826C=Init
+Trigger/Name/EBB08E3D=Waves
+Variable/Name/54293512=randomIndexSpawnArray
+Variable/Name/6D6544E9=isActivated
+Variable/Name/794EC49D=pointSpawns
+Variable/Name/7ACAD350=userPlayer
+Variable/Name/81CA5F3D=sizeOfSpawns
+Variable/Name/AE62D054=scvGroupInZone
+Variable/Name/B27E2F81=enemyPlayer
+Variable/Name/B2D9A153=CC_point
+Variable/Name/FE23FFCB=attackerGroup

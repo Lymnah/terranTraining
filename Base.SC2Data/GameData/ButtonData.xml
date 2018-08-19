@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CButton id="Armory6">
+        <Icon value="Assets\Textures\btn-building-terran-armory.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-armory.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="AttackWorker2" parent="Attack">
+        <SimpleDisplayText value=""/>
+    </CButton>
+    <CButton id="AttackWorker3" parent="Attack">
+        <SimpleDisplayText value=""/>
+    </CButton>
+    <CButton id="AttackWorker4" parent="Attack">
+        <SimpleDisplayText value=""/>
+    </CButton>
+    <CButton id="AttackWorker5" parent="Attack">
+        <SimpleDisplayText value=""/>
+    </CButton>
+    <CButton id="AttackWorker6" parent="Attack">
+        <SimpleDisplayText value=""/>
+    </CButton>
+    <CButton id="AttackWorker7" parent="Attack">
+        <SimpleDisplayText value=""/>
+    </CButton>
+    <CButton id="AttackWorker8" parent="Attack">
+        <SimpleDisplayText value=""/>
+    </CButton>
+    <CButton id="Barracks6">
+        <Icon value="Assets\Textures\btn-building-terran-barracks.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-barracks.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Bunker8">
+        <Icon value="Assets\Textures\btn-building-terran-bunker.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-bunker.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Cancel8">
+        <Icon value="Assets\Textures\btn-command-cancel.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-cancel.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="CommandCenter6">
+        <Icon value="Assets\Textures\btn-building-terran-commandcenter.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-commandcenter.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="EngineeringBay8">
+        <Icon value="Assets\Textures\btn-building-terran-engineeringbay.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-engineeringbay.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Factory6">
+        <Icon value="Assets\Textures\btn-building-terran-factory.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-factory.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="FusionCore6">
+        <Icon value="Assets\Textures\btn-building-terran-fusioncore.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-fusioncore.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="GatherTerr2">
+        <Icon value="Assets\Textures\btn-ability-terran-gather.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-gather.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="GatherProt"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Gather"/>
+    </CButton>
+    <CButton id="GhostAcademy6">
+        <Icon value="Assets\Textures\btn-building-terran-ghostacademy.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-ghostacademy.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Halt8">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MissileTurret6">
+        <Icon value="Assets\Textures\btn-building-terran-missileturret.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-missileturret.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Move8">
+        <Icon value="Assets\Textures\btn-command-move.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-move.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+        <SimpleDisplayText value="SimpleDisplay/Move8"/>
+    </CButton>
+    <CButton id="MoveHoldPosition8">
+        <Icon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-holdposition.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="MovePatrol8">
+        <Icon value="Assets\Textures\btn-command-patrol.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-patrol.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Refinery6">
+        <Icon value="Assets\Textures\btn-building-terran-refinery.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-refinery.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Repair8">
+        <Icon value="Assets\Textures\btn-ability-terran-repair.dds"/>
+        <AlertIcon value="Assets\Textures\btn-ability-terran-repair.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="ReturnCargo8">
+        <Icon value="Assets\Textures\btn-command-returncargo.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-returncargo.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="SensorTower6">
+        <Icon value="Assets\Textures\btn-building-terran-sensordome.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-sensordome.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Spray5">
+        <Icon value="Assets\Textures\btn-command-spray.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-spray.dds"/>
+        <EditorCategories value="Race:Protoss"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="Starport6">
+        <Icon value="Assets\Textures\btn-building-terran-starport.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-starport.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="Stop8">
+        <Icon value="Assets\Textures\btn-command-stop.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-stop.dds"/>
+        <EditorCategories value="Race:Neutral"/>
+        <TintRacially value="1"/>
+        <Universal value="1"/>
+    </CButton>
+    <CButton id="SupplyDepot8">
+        <Icon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <AlertIcon value="Assets\Textures\btn-building-terran-supplydepot.dds"/>
+        <EditorCategories value="Race:Terran"/>
+    </CButton>
+    <CButton id="TerranBuild7">
+        <Icon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+    <CButton id="TerranBuildAdvanced6">
+        <Icon value="Assets\Textures\btn-command-terran-buildadvancedstructure.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-terran-buildadvancedstructure.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+    </CButton>
+</Catalog>
