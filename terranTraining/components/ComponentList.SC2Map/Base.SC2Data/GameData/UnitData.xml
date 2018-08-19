@@ -3,7 +3,14 @@
     <CUnit id="SuperCannon" parent="PhotonCannon">
         <Name value="Unit/Name/SuperCannon"/>
         <Description value="Button/Tooltip/SuperCannon"/>
+        <BehaviorArray index="0" Link="UnderConstruction"/>
+        <BehaviorArray index="1" removed="1"/>
+        <BehaviorArray index="2" removed="1"/>
         <WeaponArray index="0" Link="SuperCannon" Turret="SuperCannon"/>
+        <CardLayouts index="0">
+            <LayoutButtons index="3" removed="1"/>
+        </CardLayouts>
+        <Radius value="1.3125"/>
     </CUnit>
     <CUnit id="SuperCannonWeapon" parent="MISSILE">
         <Race value="Prot"/>
