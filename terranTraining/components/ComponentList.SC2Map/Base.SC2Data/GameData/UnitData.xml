@@ -52,7 +52,7 @@
             <LayoutButtons Face="Repair" Type="AbilCmd" AbilCmd="Repair,Execute" Row="2" Column="2"/>
             <LayoutButtons Face="GatherTerr" Type="AbilCmd" AbilCmd="SCVHarvest,Gather" Row="1" Column="0"/>
             <LayoutButtons Face="ReturnCargo" Type="AbilCmd" AbilCmd="SCVHarvest,Return" Row="1" Column="1"/>
-            <LayoutButtons Face="TerranBuild" Type="Submenu" SubmenuCardId="TBl1" Row="2" Column="0"/>
+            <LayoutButtons Face="BuildStructureDisabled" Type="Submenu" SubmenuCardId="TBl1" Row="2" Column="0"/>
             <LayoutButtons Face="TerranBuildAdvanced" Type="Submenu" SubmenuCardId="TBl2" Row="2" Column="1"/>
             <LayoutButtons Face="Halt" Type="AbilCmd" AbilCmd="BuildSCV_Disabled,Halt" Row="2" Column="4"/>
             <LayoutButtons Face="Spray" Type="AbilCmd" AbilCmd="SprayTerran,Execute" Row="2" Column="3"/>
@@ -94,7 +94,7 @@
             <ChanceArray index="Idle" value="33"/>
             <ChanceArray index="Turn" value="33"/>
         </Fidget>
-    </CUnit>
+    </CUnit>    
     <CUnit id="SuperCannon" parent="PhotonCannon">
         <Name value="Unit/Name/SuperCannon"/>
         <Description value="Button/Tooltip/SuperCannon"/>

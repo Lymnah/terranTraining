@@ -1,5 +1,5 @@
 ﻿Abil/EditorPrefix/BuildSCV_Disabled=SCV -
-Actor/Name/SCV2=SCV Copy
+Actor/Name/SCVDisable=SCV Disable
 Actor/Name/SuperCannon=SuperCannon
 Actor/Name/SuperCannonAttack=SuperCannon Attack
 Actor/Name/SuperCannonSplat=SuperCannon Splat
