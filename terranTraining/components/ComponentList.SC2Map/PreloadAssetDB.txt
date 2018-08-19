@@ -1,10 +1,4 @@
 [Abil]
-id=TerranBuild2
-asset=Assets\Textures\WayPointLine.dds
-asset=Assets\UI\Cursors\WayPointConfirm_Void\WayPointConfirm_Void.m3
-Actor=CommandUIHarnessAttackProtoss,CommandUIHarnessAttackTerran,CommandUIHarnessAttackZerg,CommandUIHarnessConfirmProtoss,CommandUIHarnessConfirmTerran,CommandUIHarnessConfirmZerg,CommandUIHarnessMoveProtoss,CommandUIHarnessMoveTerran,CommandUIHarnessMoveZerg,CommandUIHarnessRallyProtoss,CommandUIHarnessRallyTerran,CommandUIHarnessRallyZerg,TerrainMgr
-Alert=BuildComplete,Error
-Unit=Armory,Barracks,Bunker,CommandCenter,EngineeringBay,Factory,FusionCore,GhostAcademy,MissileTurret,Refinery,SensorTower,Starport,SupplyDepot
 id=BuildSCV_Disabled
 asset=Assets\Textures\WayPointLine.dds
 asset=Assets\UI\Cursors\WayPointConfirm_Void\WayPointConfirm_Void.m3
