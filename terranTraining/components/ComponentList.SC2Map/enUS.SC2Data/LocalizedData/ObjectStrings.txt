@@ -1,4 +1,4 @@
-﻿Abil/EditorPrefix/TerranBuild3=SCV -
+﻿Abil/EditorPrefix/BuildSCV_Disabled=SCV -
 Actor/Name/SCV2=SCV Copy
 Actor/Name/SuperCannon=SuperCannon
 Actor/Name/SuperCannonAttack=SuperCannon Attack

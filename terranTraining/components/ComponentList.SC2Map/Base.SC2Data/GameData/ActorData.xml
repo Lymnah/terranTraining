@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
-    <CActorUnit id="SCV2" parent="SCV" unitName="SCV2">
-        <On index="0" Terms="UnitBirth.SCV2"/>
-        <On index="1" Terms="UnitBirth.SCV2"/>
-        <On index="2" Terms="UnitRevive.SCV2"/>
-        <On index="3" Terms="UnitRevive.SCV2"/>
-        <On index="4" Terms="UnitConstruction.SCV2.Start"/>
-        <On index="5" Terms="UnitConstruction.SCV2.Finish"/>
+    <CActorUnit id="SCV2" parent="SCV" unitName="SCV_Disabled">
+        <On index="0" Terms="UnitBirth.SCV_Disabled"/>
+        <On index="1" Terms="UnitBirth.SCV_Disabled"/>
+        <On index="2" Terms="UnitRevive.SCV_Disabled"/>
+        <On index="3" Terms="UnitRevive.SCV_Disabled"/>
+        <On index="4" Terms="UnitConstruction.SCV_Disabled.Start"/>
+        <On index="5" Terms="UnitConstruction.SCV_Disabled.Finish"/>
         <HighlightTooltip value="Unit/Name/SCV2"/>
     </CActorUnit>
     <CActorUnit id="SuperCannon" parent="PhotonCannon" unitName="SuperCannon">
