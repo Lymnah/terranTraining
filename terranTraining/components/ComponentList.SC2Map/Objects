@@ -32,6 +32,7 @@
     </ObjectUnit>
     <ObjectUnit Id="1245588326" Position="63.6103,16.628,0" Rotation="2.886" Scale="1,1,1" UnitType="Marauder" Player="1"/>
     <ObjectUnit Id="2139265930" Variation="1" Position="58,51.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
+    <ObjectUnit Id="2560597" Position="58.3991,65.4616,0" Rotation="0.8176" Scale="1,1,1" UnitType="Marine" Player="1"/>
     <ObjectUnit Id="904722230" Variation="3" Position="51,53.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
     <ObjectUnit Id="1221862914" Position="50.5,60.5,0" Scale="1,1,1" UnitType="ProtossVespeneGeyser"/>
     <ObjectPoint Id="1127384928" Position="1.059,123.114,0" Scale="1,1,1" Type="Normal" Name="CycloneDefPoint_3" Color="0,0,0,0"/>
