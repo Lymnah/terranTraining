@@ -8,7 +8,7 @@
         <rampList num="1">
             <ramp dir="4" hi="2" lo="1" leftLo="u(0.000000e+00, -1.000000e+00) r(-1.000000e+00, 0.000000e+00) c=(6.800000e+01, 6.800000e+01) w=2.000000e+00 h=2.000000e+00" leftHi="u(0.000000e+00, 0.000000e+00) r(0.000000e+00, 0.000000e+00) c=(3.200000e+01, 3.200000e+01) w=0.000000e+00 h=0.000000e+00" rightLo="u(0.000000e+00, -1.000000e+00) r(-1.000000e+00, 0.000000e+00) c=(6.600000e+01, 7.000000e+01) w=2.000000e+00 h=2.000000e+00" rightHi="u(0.000000e+00, 0.000000e+00) r(0.000000e+00, 0.000000e+00) c=(3.200000e+01, 3.200000e+01) w=0.000000e+00 h=0.000000e+00" base="u(-7.071068e-01, -7.071068e-01) r(-7.071068e-01, 7.071068e-01) c=(6.500000e+01, 6.700000e+01) w=1.414214e+00 h=0.000000e+00" mid="u(-7.071068e-01, -7.071068e-01) r(-7.071068e-01, 7.071068e-01) c=(6.700000e+01, 6.900000e+01) w=1.414214e+00 h=2.828427e+00" cid="1" leftLoVar="0" leftHiVar="4294967295" rightLoVar="0" rightHiVar="4294967295"/>
         </rampList>
-        <vertData quantizeBias="9.000000e+00" quantizeScale="2.746577e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
+        <vertData quantizeBias="9.000246e+00" quantizeScale="2.746610e-04" standardHeight="8.000000e+00" name="t3HeightMap"/>
         <masks name="t3TextureMasks"/>
         <textureSetList num="8">
             <textureSet i="0" name="BelShirEx1"/>
