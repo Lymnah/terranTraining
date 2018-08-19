@@ -1,12 +1,18 @@
 ﻿Button/Tooltip/SCV3=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SuperCannon=Primary defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
 Button/Tooltip/Zealot2=Powerful melee warrior.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/dupplicate_build=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 DocInfo/DescLong=Completely devoid of any description whatsoever.
 DocInfo/DescShort=Any
 DocInfo/Name=Just Another StarCraft II Map
+Effect/Name/SuperCannonDamage=SuperCannon (Damage)
+Effect/Name/SuperCannonLaunchMissile=SuperCannon (Launch Missile)
 MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Player 1
 MapInfo/Player02/Name=Hostile
 Unit/Name/MineralField=custom_Mineral Field
+Unit/Name/SuperCannon=SuperCannon
+Unit/Name/SuperCannonWeapon=SuperCannon Weapon
 Unit/Name/Zealot2=Zealot Copy
 Unit/Name/dupplicate_build=dupplicate_build
+Weapon/Name/SuperCannon=SuperCannon

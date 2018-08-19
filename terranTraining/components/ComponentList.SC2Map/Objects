@@ -12,7 +12,7 @@
     <ObjectUnit Id="1106744077" Variation="5" Position="55,51.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
     <ObjectUnit Id="769333983" Position="97.591,20.7604,0" Rotation="2.886" Scale="1,1,1" UnitType="Marauder" Player="1"/>
     <ObjectUnit Id="1285411640" Position="66,65,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot" Player="1"/>
-    <ObjectUnit Id="1416917457" Position="60.7976,63.3022,0" Rotation="5.6762" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="1416917457" Position="63.7055,61.0466,0" Rotation="5.6762" Scale="1,1,1" UnitType="Marine" Player="1"/>
     <ObjectUnit Id="350997420" Position="16.628,63.6103,0" Rotation="1.8266" Scale="1,1,1" UnitType="Marauder" Player="1"/>
     <ObjectUnit Id="1032027364" Position="22,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNagaTower"/>
     <ObjectUnit Id="1489237911" Variation="1" Position="57,50.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
