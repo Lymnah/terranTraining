@@ -3,4 +3,7 @@
     <CAbilBuild id="TerranBuild2" parent="TerranBuild">
         <Name value="Abil/Name/TerranBuild2"/>
     </CAbilBuild>
+    <CAbilBuild id="TerranBuild3" parent="TerranBuild">
+        <Name value="Abil/Name/TerranBuild3"/>
+    </CAbilBuild>
 </Catalog>

@@ -1,4 +1,6 @@
-﻿Actor/Name/SuperCannon=SuperCannon
+﻿Abil/EditorPrefix/TerranBuild3=SCV -
+Actor/Name/SCV2=SCV Copy
+Actor/Name/SuperCannon=SuperCannon
 Actor/Name/SuperCannonAttack=SuperCannon Attack
 Actor/Name/SuperCannonSplat=SuperCannon Splat
 Button/EditorSuffix/AttackWorker2=(Worker)

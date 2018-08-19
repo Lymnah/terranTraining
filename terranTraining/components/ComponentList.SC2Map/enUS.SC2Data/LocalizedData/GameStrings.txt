@@ -1,4 +1,6 @@
-﻿Button/Tooltip/SCV3=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+﻿Abil/Name/TerranBuild3=Build (SCV) Copy
+Button/Tooltip/SCV2=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/SCV3=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
 Button/Tooltip/SuperCannon=Primary defensive structure.<n/><n/><c val="ffff8a">Can attack ground and air units.</c><n/><c val="FFE303">Detector</c>
 Button/Tooltip/Zealot2=Powerful melee warrior.<n/><n/><c val="ffff8a">Can attack ground units.</c>
 Button/Tooltip/dupplicate_build=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
@@ -11,6 +13,7 @@ MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Player 1
 MapInfo/Player02/Name=Hostile
 Unit/Name/MineralField=custom_Mineral Field
+Unit/Name/SCV2=SCV Copy
 Unit/Name/SuperCannon=SuperCannon
 Unit/Name/SuperCannonWeapon=SuperCannon Weapon
 Unit/Name/Zealot2=Zealot Copy
