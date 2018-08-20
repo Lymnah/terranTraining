@@ -1,13 +1,3 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
-    <CWeaponLegacy id="SuperCannon">
-        <EditorCategories value="Race:Protoss"/>
-        <Icon value="Assets\Textures\btn-building-protoss-photoncannon.dds"/>
-        <DisplayEffect value="SuperCannonDamage"/>
-        <TargetFilters value="Visible;Missile,Stasis,Dead,Hidden,Invulnerable"/>
-        <Range value="7"/>
-        <RangeSlop value="0"/>
-        <Period value="1.25"/>
-        <Effect value="SuperCannonLaunchMissile"/>
-    </CWeaponLegacy>
 </Catalog>

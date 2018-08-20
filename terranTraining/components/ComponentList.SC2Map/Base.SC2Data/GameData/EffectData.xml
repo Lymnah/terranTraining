@@ -1,14 +1,3 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
-    <CEffectLaunchMissile id="SuperCannonLaunchMissile">
-        <ValidatorArray index="0" value="PhotonCannonTargetFilters"/>
-        <EditorCategories value="Race:Protoss"/>
-        <ImpactEffect value="SuperCannonDamage"/>
-        <AmmoUnit value="SuperCannonWeapon"/>
-    </CEffectLaunchMissile>
-    <CEffectDamage id="SuperCannonDamage" parent="DU_WEAP">
-        <EditorCategories value="Race:Protoss"/>
-        <Kind value="Ranged"/>
-        <Amount value="20"/>
-    </CEffectDamage>
 </Catalog>

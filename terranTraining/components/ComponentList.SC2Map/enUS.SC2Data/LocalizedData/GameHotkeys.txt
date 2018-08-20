@@ -1,3 +1,0 @@
-﻿Button/Hotkey/BuildStructure=BracketOpen
-Button/Hotkey/BuildStructureDisabled=B
-Button/Hotkey/TerranBuild=B

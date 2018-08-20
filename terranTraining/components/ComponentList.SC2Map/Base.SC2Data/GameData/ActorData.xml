@@ -1,31 +1,3 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
-    <CActorUnit id="SCVDisable" parent="SCV" unitName="SCV_Disabled">
-        <On index="0" Terms="UnitBirth.SCV_Disabled"/>
-        <On index="1" Terms="UnitBirth.SCV_Disabled"/>
-        <On index="2" Terms="UnitRevive.SCV_Disabled"/>
-        <On index="3" Terms="UnitRevive.SCV_Disabled"/>
-        <On index="4" Terms="UnitConstruction.SCV_Disabled.Start"/>
-        <On index="5" Terms="UnitConstruction.SCV_Disabled.Finish"/>
-        <HighlightTooltip value="Unit/Name/SCVDisable"/>
-    </CActorUnit>
-    <CActorUnit id="SuperCannon" parent="PhotonCannon" unitName="SuperCannon">
-        <On index="0" Terms="UnitBirth.SuperCannon"/>
-        <On index="1" Terms="UnitBirth.SuperCannon"/>
-        <On index="2" Terms="UnitRevive.SuperCannon"/>
-        <On index="3" Terms="UnitRevive.SuperCannon"/>
-        <On index="4" Terms="UnitConstruction.SuperCannon.Start"/>
-        <On index="5" Terms="UnitConstruction.SuperCannon.Finish"/>
-        <HighlightTooltip value="Unit/Name/SuperCannon"/>
-    </CActorUnit>
-    <CActorAction id="SuperCannonAttack" parent="GenericAttack" effectImpact="PhotonCannonU" effectLaunch="SuperCannonLaunchMissile">
-        <LaunchAssets Sound="PhotonCannon_AttackLaunch"/>
-        <Missile value="PhotonCannonAttackMissile"/>
-        <ImpactMap index="None" Model="PhotonCannonAttackImpact" Sound="PhotonCannon_AttackImpact"/>
-        <ImpactMap index="Flesh" ModelReaction="BloodTargetImpact"/>
-        <ImpactPhysics Name="PhotonCannonImpact" MatchKeys="Basic" Physics="PhotonCannonAttackDeathForce"/>
-    </CActorAction>
-    <CActorSplat id="SuperCannonSplat" parent="GenericUnitSplat" unitName="SuperCannon">
-        <Model value="PhotonCannonSplat"/>
-    </CActorSplat>
 </Catalog>
