@@ -8,33 +8,33 @@
     <ObjectUnit Id="810337910" Position="63,68,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot" Player="1"/>
     <ObjectUnit Id="1305916286" Position="78.9082,42.9621,0" Rotation="4.0534" Scale="1,1,1" UnitType="Cyclone" Player="1"/>
     <ObjectUnit Id="564646583" Position="43.0192,79.3632,0" Rotation="4.1022" Scale="1,1,1" UnitType="Cyclone" Player="1"/>
-    <ObjectUnit Id="769333983" Position="97.591,20.7604,0" Rotation="2.886" Scale="1,1,1" UnitType="Marauder" Player="1"/>
-    <ObjectUnit Id="1106744077" Variation="5" Position="55,51.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
     <ObjectUnit Id="95107777" Position="61.5,50.5,0" Scale="1,1,1" UnitType="ProtossVespeneGeyser"/>
+    <ObjectUnit Id="1106744077" Variation="5" Position="55,51.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
+    <ObjectUnit Id="769333983" Position="97.591,20.7604,0" Rotation="2.886" Scale="1,1,1" UnitType="Marauder" Player="1"/>
     <ObjectUnit Id="1285411640" Position="66,65,0" Rotation="5.4975" Scale="1,1,1" UnitType="SupplyDepot" Player="1"/>
     <ObjectUnit Id="1416917457" Position="63.7055,61.0466,0" Rotation="5.6762" Scale="1,1,1" UnitType="Marine" Player="1"/>
     <ObjectUnit Id="350997420" Position="16.628,63.6103,0" Rotation="1.8266" Scale="1,1,1" UnitType="Marauder" Player="1"/>
     <ObjectUnit Id="1032027364" Position="22,96,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNagaTower"/>
-    <ObjectUnit Id="362076549" Position="96,22,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNagaTower"/>
     <ObjectUnit Id="1489237911" Variation="1" Position="57,50.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
-    <ObjectUnit Id="1928487580" Position="21,21,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNagaTower"/>
+    <ObjectUnit Id="362076549" Position="96,22,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNagaTower"/>
     <ObjectUnit Id="1928119336" Variation="3" Position="52,52.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
+    <ObjectUnit Id="1928487580" Position="21,21,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNagaTower"/>
     <ObjectUnit Id="2007787989" Variation="1" Position="51,57.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
     <ObjectUnit Id="22345318" Position="20.2326,19.5332,0" Rotation="2.886" Scale="1,1,1" UnitType="Marauder" Player="1"/>
-    <ObjectUnit Id="1921706896" Position="54.299,54.7683,0" Rotation="4.816" Scale="1,1,1" UnitType="Disabled_SCV" Player="1"/>
     <ObjectUnit Id="2137120234" Position="63.5,65.5,0" Rotation="5.4975" Scale="1,1,1" UnitType="Bunker" Player="1"/>
-    <ObjectUnit Id="855480514" Position="41.7138,78.0114,0" Rotation="4.0534" Scale="1,1,1" UnitType="Cyclone" Player="1"/>
     <ObjectUnit Id="996046027" Position="17,62,0" Rotation="5.4975" Scale="1,1,1" UnitType="XelNagaTower"/>
+    <ObjectUnit Id="855480514" Position="41.7138,78.0114,0" Rotation="4.0534" Scale="1,1,1" UnitType="Cyclone" Player="1"/>
     <ObjectUnit Id="1343064174" Position="40.7836,76.582,0" Rotation="4.009" Scale="1,1,1" UnitType="Cyclone" Player="1"/>
+    <ObjectUnit Id="831417150" Position="59.9377,64.1503,0" Rotation="0.736" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="2124136092" Position="77.978,41.5327,0" Rotation="4.009" Scale="1,1,1" UnitType="Cyclone" Player="1"/>
     <ObjectUnit Id="1079165661" Position="57.5,57.5,0" Rotation="5.4975" Scale="1,1,1" UnitType="OrbitalCommand" Player="1">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="2124136092" Position="77.978,41.5327,0" Rotation="4.009" Scale="1,1,1" UnitType="Cyclone" Player="1"/>
-    <ObjectUnit Id="831417150" Position="59.9377,64.1503,0" Rotation="0.736" Scale="1,1,1" UnitType="Marine" Player="1"/>
     <ObjectUnit Id="1245588326" Position="63.6103,16.628,0" Rotation="2.886" Scale="1,1,1" UnitType="Marauder" Player="1"/>
     <ObjectUnit Id="2139265930" Variation="1" Position="58,51.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
-    <ObjectUnit Id="904722230" Variation="3" Position="51,53.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
+    <ObjectUnit Id="2085300807" Position="54.0795,54.2243,0" Rotation="0.6137" Scale="1,1,1" UnitType="SCV_Disabled" Player="1"/>
     <ObjectUnit Id="2560597" Position="58.3991,65.4616,0" Rotation="0.8176" Scale="1,1,1" UnitType="Marine" Player="1"/>
+    <ObjectUnit Id="904722230" Variation="3" Position="51,53.5,0" Scale="1,1,1" UnitType="PurifierMineralField"/>
     <ObjectUnit Id="1221862914" Position="50.5,60.5,0" Scale="1,1,1" UnitType="ProtossVespeneGeyser"/>
     <ObjectPoint Id="1127384928" Position="1.059,123.114,0" Scale="1,1,1" Type="Normal" Name="CycloneDefPoint_3" Color="0,0,0,0"/>
     <ObjectPoint Id="34536621" Position="63.311,0.9758,0" Scale="1,1,1" Type="Normal" Name="CycloneDefPoint_4" Color="0,0,0,0"/>
