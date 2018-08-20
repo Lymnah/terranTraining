@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
+    <CActorUnit id="TempScvActor___Theone" parent="SCV" unitName="Temp_SCV">
+        <On index="0" Terms="UnitBirth.Disabled_SCV"/>
+        <On index="1" Terms="UnitBirth.Disabled_SCV"/>
+        <On index="2" Terms="UnitRevive.Disabled_SCV"/>
+        <On index="3" Terms="UnitRevive.Disabled_SCV"/>
+        <On index="4" Terms="UnitConstruction.Disabled_SCV.Start"/>
+        <On index="5" Terms="UnitConstruction.Disabled_SCV.Finish"/>
+        <HighlightTooltip value="Unit/Name/TempScvActor___Theone"/>
+    </CActorUnit>
 </Catalog>

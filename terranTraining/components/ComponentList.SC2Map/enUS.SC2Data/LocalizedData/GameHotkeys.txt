@@ -1,0 +1,2 @@
+﻿Button/Hotkey/Disabled_BuildAdvancedStructure=V
+Button/Hotkey/Disabled_BuildStructure=B

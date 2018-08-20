@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CButton id="Disabled_BuildStructure">
+        <Icon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-terran-buildstructure.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="TerranBuild"/>
+    </CButton>
+    <CButton id="Disabled_BuildAdvancedStructure">
+        <Icon value="Assets\Textures\btn-command-terran-buildadvancedstructure.dds"/>
+        <AlertIcon value="Assets\Textures\btn-command-terran-buildadvancedstructure.dds"/>
+        <EditorCategories value="Race:Terran"/>
+        <TintRacially value="1"/>
+        <HotkeyAlias value="TerranBuild"/>
+    </CButton>
+</Catalog>

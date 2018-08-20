@@ -1,0 +1,2 @@
+﻿Actor/Name/TempScvActor___Theone=TempScvActor___The one
+Button/EditorSuffix/Disabled_BuildAdvancedStructure=(Terran)

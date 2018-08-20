@@ -1,0 +1,8 @@
+﻿Button/Name/Disabled_BuildAdvancedStructure=Disabled_Build Advanced Structure
+Button/Name/Disabled_BuildStructure=Disabled_Build Structure
+Button/Tooltip/Disabled_BuildAdvancedStructure=A list of advanced structures.
+Button/Tooltip/Disabled_BuildStructure=A list of basic structures.
+Button/Tooltip/Disabled_SCV=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Button/Tooltip/Temp_SCV=Basic worker unit. Can gather resources, build Terran structures, and repair.<n/><n/><c val="#ColorAttackInfo">Can attack ground units.</c>
+Unit/Name/Disabled_SCV=Disabled_SCV
+Unit/Name/Temp_SCV=Temp_SCV
